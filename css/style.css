@@ -1091,6 +1091,16 @@
 		color: #000;
 	}
 
+	.custom-fa {
+		color: #2a2a2c;
+		padding: 40px;
+	}
+
+	.custom-fa:hover {
+		color: #45321d;
+		padding: 40px;
+	}
+
 
 
 
