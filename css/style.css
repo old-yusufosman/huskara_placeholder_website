@@ -637,7 +637,7 @@
 /* 10. OUR TEAM */
 
 	#our-team{
-		padding-top: 130px;
+		margin-top: 130px;
 		padding-bottom: 120px;
 	}
 
@@ -1094,6 +1094,11 @@
 	.custom-fa {
 		color: #2a2a2c;
 		padding: 40px;
+		-webkit-transition: all 0.2s ease-in-out;
+		-moz-transition: all 0.2s ease-in-out;
+		-ms-transition: all 0.2s ease-in-out;
+		-o-transition: all 0.2s ease-in-out;
+		transition: all 0.2s ease-in-out;
 	}
 
 	.custom-fa:hover {
