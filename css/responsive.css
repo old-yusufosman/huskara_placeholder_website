@@ -1,4 +1,4 @@
-/* lg */ 
+/* lg */
 @media (min-width: 1200px) {
 
 }
@@ -36,9 +36,14 @@
 /* sm */
 @media (min-width: 768px) and (max-width: 991px) {
 
+	.container{
+		margin: 0;
+		width: 100%;
+	}
+
 	.st-navbar ul li a{
-		margin-left: 13px;
-		margin-right: 13px;
+		margin-left: 0px;
+		margin-right: 0px;
 	}
 
 	#home-carousel  .item {
