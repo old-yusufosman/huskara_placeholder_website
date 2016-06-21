@@ -194,8 +194,11 @@ label {
 }
 
 .st-navbar ul li a {
+    font-family: "Poiret One", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color: black;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 700;
     padding: 0;
     margin: 14px;
 }
@@ -225,6 +228,12 @@ label {
 
 #slider {
     margin-top: 80px;
+    height: 350px;
+    background-image: url(../images/slider/02.jpg);
+    background-position-y: 80px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 #home-carousel .item {
