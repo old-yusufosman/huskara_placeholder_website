@@ -196,5 +196,12 @@
 @media (max-width: 479px) {
 
 
+	.custom-fa {
+		padding: 0 20px;
+	}
 
+	.custom-fa:hover {
+		color: #ab916d;
+		padding: 0 20px;
+	}
 }
