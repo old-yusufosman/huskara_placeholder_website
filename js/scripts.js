@@ -188,18 +188,18 @@
     }());
 	
 
-    // ----------------------------------------------
-    // Parallax Scrolling
-    // ----------------------------------------------
-	(function () {
-		$(window).bind('load', function () {
-			parallaxInit();						  
-		});
-		function parallaxInit() {		
-			$("#testimonial").parallax("50%", 0.3);
-		}	
-		parallaxInit();
-	}());
+    //// ----------------------------------------------
+    //// Parallax Scrolling
+    //// ----------------------------------------------
+	//(function () {
+	//	$(window).bind('load', function () {
+	//		parallaxInit();
+	//	});
+	//	function parallaxInit() {
+	//		$("#testimonial").parallax("50%", 0.3);
+	//	}
+	//	parallaxInit();
+	//}());
 
 	
 
