@@ -625,11 +625,14 @@ label {
 
 .member-image {
     position: relative;
+    border: 4px solid #ab916d;
+    border-radius: 50%;
 }
 
 .member-info {
     background-color: #f5f5f5;
     padding: 15px;
+    text-align: center;
 }
 
 .member-info h4 {
@@ -650,6 +653,7 @@ label {
     top: 0;
     text-align: center;
     opacity: 0;
+    border-radius: 50%;
     -webkit-transition: all 0.3s ease-out 0s;
     -moz-transition: all 0.3s ease-out 0s;
     -ms-transition: all 0.3s ease-out 0s;
@@ -685,6 +689,7 @@ label {
 .member-social p {
     color: white;
 }
+
 
 /* 11. TESTIMONIAL */
 
@@ -1113,13 +1118,6 @@ ul.content-flickr li {
     opacity: 1;
 }
 
-
-#test-container {
-    min-width: 700px;
-    display: inline-block;
-    margin-left: 300px;
-}
-
 .box i {
     position: absolute;
     display: block;
@@ -1142,6 +1140,12 @@ ul.content-flickr li {
     margin:0;
 }
 
+.first-section h1, .second-section h1, .third-section h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 48px;
+}
+
 .display-table{
     display: table;
     table-layout: fixed;
@@ -1155,7 +1159,6 @@ ul.content-flickr li {
 }
 
 .first-section h1{
-    font-weight: bold;
     color: #e1e1e1;
 }
 
@@ -1163,10 +1166,6 @@ ul.content-flickr li {
     font-size: 130%;
     color: #7a7a7a;
     /*color: white;*/
-}
-
-
-.vertical-align {
 }
 
 
@@ -1199,8 +1198,6 @@ ul.content-flickr li {
 }
 
 .second-section h1{
-    font-weight: bold;
-    font-size: 64px;
     color: #d1d1d1;
 
 }
@@ -1224,7 +1221,6 @@ ul.content-flickr li {
 }
 
 .third-section h1{
-    font-weight: bold;
     color: #7a7a7a;
 }
 
@@ -1235,7 +1231,7 @@ ul.content-flickr li {
 }
 
 .third-section .row {
-    margin: 100px 0 100px;
+    margin: 150px 0 150px 0;
 }
 
 #third-info {
@@ -1254,6 +1250,10 @@ ul.content-flickr li {
     height: 33%;
 }
 
+.img-circle {
+    border: 4px solid rgba(171, 145, 109, 1);
+}
+
 
 /*=====================================================
 =            Bootstrap 2.3.2 Media Queries            =
@@ -1264,9 +1264,12 @@ ul.content-flickr li {
 
 @media only screen and (max-width : 979px) {
 
-    .second-section h1 {
-        font-size: 40px;
-        margin-left: 10px;
+    .first-section h1, .second-section h1, .third-section h1 {
+        font-size: 35px;
+    }
+
+    .first-section p, .second-section p, .third-section p {
+        font-size: 110%;
     }
 
 }
